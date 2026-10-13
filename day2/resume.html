@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 모바일에서도 화면 크기에 맞게 보이도록 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>안주형 | Developer Resume</title>
+
+    <!-- External CSS 연결 -->
+    <link rel="stylesheet" href="resume_style.css">
+</head>
+
+
+<body>
+
+    <!-- 전체 레이아웃 -->
+    <div class="container">
+
+
+        <!-- =========================
+             왼쪽 메뉴
+        ========================== -->
+        <nav class="sidebar">
+
+            <ul>
+                <li>
+                    <a href="#resume">이력서</a>
+                </li>
+
+                <li>
+                    <a href="#projects">프로젝트</a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+
+        <!-- =========================
+             이력서 본문
+        ========================== -->
+        <main class="resume" id="resume">
+
+
+            <!-- =========================
+                 프로필
+            ========================== -->
+            <header class="profile">
+
+                <div class="profile-text">
+
+                    <h1>안주형</h1>
+
+                    <p class="job-title">
+                        Web & App Developer
+                    </p>
+
+                    <p class="contact">
+                        Web Development · App Development · AI / Data
+                    </p>
+
+                </div>
+
+
+                <img
+                    src="profile.jpg"
+                    alt="프로필 이미지"
+                    class="profile-image"
+                >
+
+            </header>
+
+
+
+            <!-- =========================
+                 자기소개
+            ========================== -->
+            <section class="resume-section">
+
+                <h2>Introduce</h2>
+
+                <p>
+                    웹과 앱 개발을 중심으로 다양한 프로젝트를 진행하며
+                    개발 경험을 쌓고 있습니다.
+                </p>
+
+                <p>
+                    최근에는 Python을 활용한 데이터 분석과 머신러닝,
+                    딥러닝 및 의료 AI 프로젝트까지 학습 영역을
+                    확장하고 있습니다.
+                </p>
+
+            </section>
+
+
+
+            <!-- =========================
+                 기술 스택
+            ========================== -->
+            <section class="resume-section">
+
+                <h2>Skills</h2>
+
+
+                <h3>WEB</h3>
+
+                <div class="skill-list">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                    <span>Next.js</span>
+
+                </div>
+
+
+                <h3>PROGRAMMING</h3>
+
+                <div class="skill-list">
+
+                    <span>Python</span>
+
+                </div>
+
+
+                <h3>DATA & AI</h3>
+
+                <div class="skill-list">
+
+                    <span>Pandas</span>
+
+                    <span>Scikit-learn</span>
+
+                    <span>PyTorch</span>
+
+                    <span>Machine Learning</span>
+
+                    <span>Deep Learning</span>
+
+                </div>
+
+
+                <h3>TOOLS</h3>
+
+                <div class="skill-list">
+
+                    <span>Git</span>
+
+                    <span>GitHub</span>
+
+                    <span>VS Code</span>
+
+                    <span>Google Colab</span>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 프로젝트
+            ========================== -->
+            <section
+                class="resume-section"
+                id="projects"
+            >
+
+                <h2>Projects</h2>
+
+
+                <!-- 프로젝트 1 -->
+                <article class="project">
+
+                    <h3>
+                        Chest X-ray AI Classification
+                    </h3>
+
+                    <p class="project-type">
+                        Deep Learning Project
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            흉부 X-ray 이미지 이진 분류 모델 개발
+                        </li>
+
+                        <li>
+                            PyTorch 기반 CNN 모델 학습
+                        </li>
+
+                        <li>
+                            데이터 증강 및 Weighted Loss 실험
+                        </li>
+
+                        <li>
+                            Grad-CAM을 활용한 모델 예측 결과 분석
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+
+                <!-- 프로젝트 2 -->
+                <article class="project">
+
+                    <h3>
+                        KTAS 응급환자 오분류 예측
+                    </h3>
+
+                    <p class="project-type">
+                        Machine Learning Project
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            응급환자 KTAS 분류 데이터 분석
+                        </li>
+
+                        <li>
+                            Random Forest 및 XGBoost 모델 비교
+                        </li>
+
+                        <li>
+                            Threshold 조정을 통한 Recall 분석
+                        </li>
+
+                        <li>
+                            Feature Importance와 SHAP 기반 해석
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+
+                <!-- 프로젝트 3 -->
+                <article class="project">
+
+                    <h3>
+                        난임 임신 성공 예측
+                    </h3>
+
+                    <p class="project-type">
+                        Machine Learning Project
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            난임 시술 데이터 전처리 및 EDA
+                        </li>
+
+                        <li>
+                            임신 성공 여부 예측 모델 개발
+                        </li>
+
+                        <li>
+                            피처 엔지니어링 및 교차검증
+                        </li>
+
+                        <li>
+                            LightGBM, XGBoost, CatBoost 모델 비교
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+
+                <!-- 프로젝트 4 -->
+                <article class="project">
+
+                    <h3>
+                        척추 의료 데이터 분석
+                    </h3>
+
+                    <p class="project-type">
+                        Medical Data Analysis
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            환자 기본정보 및 진단 데이터 통합
+                        </li>
+
+                        <li>
+                            의료 데이터 통계 분석
+                        </li>
+
+                        <li>
+                            수술 실패 여부 예측 모델 실험
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+
+               
+            </section>
+
+
+
+            <!-- =========================
+                 현재 학습
+            ========================== -->
+            <section class="resume-section">
+
+                <h2>Currently Learning</h2>
+
+                <ul>
+
+                    <li>
+                        HTML / CSS
+                    </li>
+
+                    <li>
+                        Git / GitHub
+                    </li>
+
+                    <li>
+                        Python
+                    </li>
+
+                    <li>
+                        Machine Learning
+                    </li>
+
+                    <li>
+                        Deep Learning
+                    </li>
+
+                    <li>
+                        Computer Vision
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
