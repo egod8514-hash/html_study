@@ -1,0 +1,141 @@
+/* ======================================================
+   전체 페이지
+====================================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6f8;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* ======================================================
+   전체 콘텐츠 영역
+====================================================== */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* ======================================================
+   제목
+====================================================== */
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* ======================================================
+   전체보기 / 관심항목 버튼
+====================================================== */
+
+.tabs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ======================================================
+   검색창
+====================================================== */
+
+.search {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+/* ======================================================
+   암호화폐 테이블
+====================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f1f3f5;
+}
+
+
+/* ======================================================
+   24시간 변동률
+====================================================== */
+
+/* 상승 */
+.up {
+    color: red;
+    font-weight: bold;
+}
+
+/* 하락 */
+.down {
+    color: blue;
+    font-weight: bold;
+}
+
+/* ======================================================
+   관심 종목 별 버튼
+====================================================== */
+
+.favorite-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ======================================================
+   전체보기 / 관심항목 선택 상태
+====================================================== */
+
+.tabs button {
+    background-color: #e9ecef;
+    color: #333;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* 현재 선택된 버튼 */
+.tabs button.active {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+/* 마우스를 올렸을 때 */
+.tabs button:hover {
+    background-color: #d6d8db;
+}
+
+/* 선택된 버튼에 마우스를 올렸을 때 */
+.tabs button.active:hover {
+    background-color: #222;
+}
